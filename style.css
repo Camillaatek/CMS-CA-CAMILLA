@@ -1,0 +1,53 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+html {
+    max-width: 66.4989em;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    padding: 0px 2.61792em;
+}
+
+li, p, button{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: auto;
+    color: white;
+    background-color:  rgb(67, 69, 75);
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+}
+
+a button {
+    font-size: 60px;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: auto;
+    height: auto;
+}
+.logo {
+    width: 230px;
+    height: 46px;
+}
